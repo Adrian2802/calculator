@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    width: 400px;
+    height: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    background: url('https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/393347491_2129855860538693_1556460707714370811_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEsi6Zj8UpTLY6ybeG1x4CUwixESy0-QvPCLERLLT5C8z2eFE_Dpdm7VLfskv-BSNHjnoswmf3Mm5SnUeotrLB7&_nc_ohc=smQ5qZNoy7QAX_43VVW&_nc_ht=scontent.fmnl17-5.fna&oh=00_AfCbAv8mXPmDcPGJbYEOo1EQ3bDAYT-vkYLFTE6K9jQ62Q&oe=65AA28B0') no-repeat center center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 20px; /* Adjust the button padding to increase height */
+    cursor: pointer;
+}
+
+.long-button {
+    grid-column: span 3;
+}
